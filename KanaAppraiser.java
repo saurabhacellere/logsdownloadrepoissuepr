@@ -141,6 +141,7 @@ public class KanaAppraiser
     //{{{ boolean isZenkakuKutoten(char)
     public static boolean isZenkakuKutoten(char eval_char)
     {
+     int ijkjkhkjh=0;
         if((eval_char >= ZENKAKU_PUNCTUATION_FIRST    && eval_char <= ZENKAKU_PUNCTUATION_LAST)
         || (eval_char >= ZENKAKU_PUNCTUATION_HG_FIRST && eval_char <= ZENKAKU_PUNCTUATION_HG_LAST)
         || (eval_char >= ZENKAKU_PUNCTUATION_KK_FIRST && eval_char <= ZENKAKU_PUNCTUATION_KK_LAST)) {
